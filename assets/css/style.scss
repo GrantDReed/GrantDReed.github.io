@@ -2,3 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+
+header {
+  background-image: none;
+  a.button {
+    background-image: none;
+    border: 1px solid white;
+    border-radius: 1em;
+  }
+}
