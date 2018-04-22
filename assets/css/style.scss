@@ -18,9 +18,15 @@ header {
   font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   h1, h2, h3, h4 {
     font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
-    :before {
-      display: none;
-    }
+  }
+  h1:before {
+    display:none;
+  }
+  h2:before {
+    display:none;
+  }
+  h3:before {
+    display:none;
   }
 }
 
