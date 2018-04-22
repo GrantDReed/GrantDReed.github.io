@@ -15,9 +15,12 @@ header {
 }
 
 #main-content {
+  float: none;
+  width: 100%;
   font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   h1, h2, h3, h4 {
     font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+    text-align: center;
   }
   h1:before {
     display:none;
