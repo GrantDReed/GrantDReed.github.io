@@ -1,6 +1,6 @@
 # About Me
 ---
-### I'm a biologist turned software engineer who enjoys building applications that emphasize ease-of-use and scalability.   
+I'm a biologist turned software engineer who enjoys building applications that emphasize ease-of-use and scalability.   
 
 # Projects
 ---
