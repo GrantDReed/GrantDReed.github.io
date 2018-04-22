@@ -4,6 +4,6 @@
 
 # Projects
 ---
-![ouroboros logo](assets/images/logo.svg =250x250)
+![ouroboros logo](assets/images/logo.svg)
 
 
