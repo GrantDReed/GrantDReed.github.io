@@ -4,6 +4,7 @@ I'm a biologist turned software engineer who enjoys building applications that e
 # Projects
 <section class="project">
   <aside>
+    <h2>Ouroboros</h2>
     <a href="https://www.ouroboros-game.herokuapp.com"><img src="assets/images/logo.svg" alt="ouroboros logo" width="150px"></a>
     <a class="content-btn" href="https://www.ouroboros-game.herokuapp.com">Play the Game</a>
     <a class="content-btn" href="http://www.github.com/ouroboros-team/ouroboros">View the Code</a>
