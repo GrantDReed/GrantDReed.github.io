@@ -1,5 +1,6 @@
 # About Me
-I'm a biologist turned software engineer who enjoys building applications that emphasize ease-of-use and scalability.   
+I am a full-stack software engineer with a background in biology, and have found significant overlap in the areas of application development and experimental design. The ability to think critically and avoid assumptions helps me write web applications that emphasize ease-of-use and scalability, reflecting a performant, well-tested, and maintainable codebase.
+
 
 # Projects
 <section class="project">
