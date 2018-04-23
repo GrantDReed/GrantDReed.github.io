@@ -38,7 +38,7 @@ header {
   p {
     font-size: 2em;
   }
-  .projects {
+  .project {
     width: 100%;
     aside {
       width: 35%;
@@ -47,7 +47,7 @@ header {
       width: 65%;
     }
   }
-  .projects:after {
+  .project:after {
     content: "";
     display: table;
     clear: both;
