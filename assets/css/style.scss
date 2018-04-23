@@ -54,5 +54,17 @@ header {
     display: table;
     clear: both;
   }
+  .content-btn {
+    color: #2E7BCF;
+    border: 1px solid #2E7BCF;
+    border-radius: 1em;
+    padding: 20px;
+    font-size: 1.2em;
+    display: inline-block;
+    margin-right: 100px;
+  }
+  .content-btn:hover {
+    box-shadow: 0 0 0 5px #2E7BCF;
+  }
 }
 
