@@ -11,7 +11,9 @@ header {
     background-image: none;
     border: 1px solid #fff;
     border-radius: 1em;
-    padding-left: 55px;
+    width: 0;
+    height: 0;
+    padding: 20px 30px;
     small {
       padding-left: 20px;
     }
@@ -19,7 +21,7 @@ header {
       small {
         padding-left: 2px;
       }
-      padding-left: 60px;
+      padding: 20px 37px;
       top: 90px;
     }
   }
@@ -49,9 +51,9 @@ header {
   h3:before {
     display:none;
   }
-  p {
-    font-size: 2em;
-    padding-left: 75px;
+  .about {
+    padding: 0 50px;
+    font-size 2em;
   }
   .project {
     width: 100%;
@@ -62,13 +64,16 @@ header {
       h2 {
            margin: 0 0 10px 0;
            font-size: 2em;
+           text-indent: 0;
+      }
+     .desc p {
+       padding-left: 50px;
       }
     }
     section {
       float: left;
       width: 65%;
       p {
-          padding: 0 75px 0 0;
           font-size: 2em;
       }
     }
