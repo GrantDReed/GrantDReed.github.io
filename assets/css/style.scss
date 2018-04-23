@@ -12,6 +12,7 @@ header {
     border: 1px solid #fff;
     border-radius: 1em;
     width: auto;
+    height: auto;
     padding: 20px 30px;
     small {
       padding-left: 20px;
@@ -58,22 +59,20 @@ header {
     width: 100%;
     aside {
       float: left;
-      width: 35%;
+      width: 30%;
       text-align: center;
       h2 {
            margin: 0 0 10px 0;
            font-size: 2em;
            text-indent: 0;
       }
-     .desc p {
-       padding-right: 50px;
-      }
     }
     section {
       float: left;
-      width: 65%;
-      p {
-          font-size: 2em;
+      width: 70%;
+      .desc p {
+        padding-right: 50px;
+        font-size: 2em;
       }
     }
   }
