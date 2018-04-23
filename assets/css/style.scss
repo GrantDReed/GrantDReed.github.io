@@ -16,6 +16,9 @@ header {
       padding-left: 20px;
     }
     + a.button {
+      small {
+        padding-left: 0;
+      }
       top: 90px;
     }
   }
