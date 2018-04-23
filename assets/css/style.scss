@@ -41,9 +41,11 @@ header {
   .project {
     width: 100%;
     aside {
+      float: left;
       width: 35%;
     }
     section {
+      float: left;
       width: 65%;
     }
   }
