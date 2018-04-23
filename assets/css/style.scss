@@ -48,13 +48,17 @@ header {
       float: left;
       width: 35%;
       text-align: center;
+      h2 {
+           margin: 0 0 10px 0;
+           font-size: 2em;
+      }
     }
     section {
       float: left;
       width: 65%;
       p {
           padding: 0 75px 0 0;
-          font-size: 1.7em;
+          font-size: 2em;
       }
     }
   }
