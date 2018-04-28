@@ -102,3 +102,18 @@ header {
   }
 }
 
+@media (max-width: 959px) 
+  header {
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  #main-content {
+    h1 {
+      font-size: 2em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+}
+}
