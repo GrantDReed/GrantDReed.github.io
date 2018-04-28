@@ -150,12 +150,33 @@ header {
       float: none;
       width: 100%;
     }
-    .desc {
+    .project .desc {
       float: none;
       width: 100%;
     }
     .desc p {
       padding: 0 50px;
+    }
+  }
+}
+
+@media (max-width: 434) {
+  header h1 {
+    font-size: 36px;
+  }
+  #main-content {
+    .about {
+      padding: 0;
+    }
+    .desc p {
+      padding: 0;
+    }
+}
+
+@media (max-width: 378) {
+  header {
+    a.button + a.button {
+      margin-left: 0;
     }
   }
 }
