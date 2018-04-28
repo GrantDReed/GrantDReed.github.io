@@ -113,7 +113,7 @@ header {
     h1 {
       font-size: 2em;
     }
-    h2 {
+    aside h2 {
       font-size: 1.7em;
     }
     p {
@@ -121,6 +121,38 @@ header {
     }
     .content-btn {
       padding: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    a.button small {
+      padding-left: 0;
+    }
+    a.button + a.button {
+      top: 0;
+      margin-left: 10px;
+      padding: 20px 18px;
+    }
+  }
+  #main-content {
+    p {
+      font-size: 1em;
+    }
+    aside h2 {
+      font-size: 1.7em;
+    }
+    .project aside {
+      float: none;
+      width: 100%;
+    }
+    .desc {
+      float: none;
+      width: 100%;
+    }
+    .desc p {
+      padding: 0 50px;
     }
   }
 }
