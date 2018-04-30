@@ -18,7 +18,7 @@
 <section class="project">
   <aside>
     <h2>Reaction</h2>
-    <a class='logo' id='reaction' href="github.com/GrantDreed/reaction-trello-clone"><img src="assets/images/reaction.svg" alt="reaction logo" width="150px"></a>
+    <a class='logo' href="github.com/GrantDreed/reaction-trello-clone"><img id='reaction' src="assets/images/reaction.svg" alt="reaction logo" width="150px"></a>
     <a class="content-btn" href="https://github.com/GrantDReed/reaction-trello-clone">View the Code</a>
   </aside>
   <section class="desc">
