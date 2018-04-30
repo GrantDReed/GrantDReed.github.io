@@ -51,8 +51,11 @@ nav {
       }
       a:hover {
         background: #2E7BCF;
+        color: #fff;
       }
-      a:first-child {
+    }
+    li:first-child {
+      a {
         margin-left: 0;
       }
     }
