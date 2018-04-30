@@ -1,6 +1,6 @@
 <h1 id="about">About Me</h1>
 <section class="about">
-  <p>I am a full-stack software engineer with a background in biology, and have found significant overlap between application development and my prior experience with scientific research and experimental design. The ability to think critically and avoid assumptions helps me write web applications that emphasize ease-of-use and scalability, reflecting a performant, well-tested, and maintainable codebase.</p>
+  <p>I am a full-stack software engineer with a background in biology. I write web applications that emphasize ease-of-use and scalability, reflecting a performant, well-tested, and maintainable codebase. My scientific training taught me to think critically and avoid assumptions, which are skills I bring to bear on all the code I write.</p>
 </section>
 
 <h1 id="projects">Projects</h1>
