@@ -7,7 +7,7 @@
 <section class="project">
   <aside>
     <h2>Ouroboros</h2>
-    <a href="https://ouroboros-game.herokuapp.com"><img src="assets/images/logo.svg" alt="ouroboros logo" width="150px"></a>
+    <a class='logo' href="https://ouroboros-game.herokuapp.com"><img src="assets/images/logo.svg" alt="ouroboros logo" width="150px"></a>
     <a class="content-btn" href="https://ouroboros-game.herokuapp.com">Play the Game</a>
     <a class="content-btn" href="https://github.com/ouroboros-team/ouroboros">View the Code</a>
   </aside>
@@ -18,7 +18,7 @@
 <section class="project">
   <aside>
     <h2>Reaction</h2>
-    <a href="github.com/GrantDreed/reaction-trello-clone"><img src="assets/images/reaction.svg" alt="reaction logo" width="150px"></a>
+    <a class='logo' href="github.com/GrantDreed/reaction-trello-clone"><img src="assets/images/reaction.svg" alt="reaction logo" width="150px"></a>
     <a class="content-btn" href="https://github.com/GrantDReed/reaction-trello-clone">View the Code</a>
   </aside>
   <section class="desc">
