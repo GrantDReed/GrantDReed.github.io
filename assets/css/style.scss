@@ -34,11 +34,12 @@ header {
 }
 
 nav {
-  padding: 15px 0;
+  background: #76bdfb;
   ul {
     list-style: none;
     margin: 0;
   > li {
+      display: inline-block;
       a {
         color: #fff;
         font-size: 2em;
@@ -46,6 +47,9 @@ nav {
         margin-left: 50px;
         display: inline-block;
         padding: 15px 0;
+      }
+      a:hover {
+        background: #2E7BCF;
       }
       a:first-child {
         margin-left: 0;
