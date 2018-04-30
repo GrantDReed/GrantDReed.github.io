@@ -1,9 +1,16 @@
-# About Me
+<nav>
+  <ul>
+    <li><a href="#about">About</a></li>
+    <li><a href="#projects">Projects</a></li>
+    <li><a href="#contact">Contact</a></li>
+  </ul>
+</nav>
+<h1 id="about">About Me</h1>
 <section class="about">
   <p>I am a full-stack software engineer with a background in biology, and have found significant overlap between application development and my prior experience with scientific research and experimental design. The ability to think critically and avoid assumptions helps me write web applications that emphasize ease-of-use and scalability, reflecting a performant, well-tested, and maintainable codebase.</p>
 </section>
 
-# Projects
+<h1 id="projects">Projects</h1>
 <section class="project">
   <aside>
     <h2>Ouroboros</h2>
@@ -18,12 +25,20 @@
 <section class="project">
   <aside>
     <h2>Reaction</h2>
-    <a class='logo' href="github.com/GrantDreed/reaction-trello-clone"><img id='reaction' src="assets/images/reaction.svg" alt="reaction logo" width="150px"></a>
+    <a class='logo' href="https://github.com/GrantDreed/reaction-trello-clone"><img id='reaction' src="assets/images/reaction.svg" alt="reaction logo" width="150px"></a>
     <a class="content-btn" href="https://github.com/GrantDReed/reaction-trello-clone">View the Code</a>
   </aside>
   <section class="desc">
     <p>Reaction is a clone of the project management software, Trello.  It has a Rails backend that handles API calls from the React frontend.</p>
   </section>
+</section>
+<h1 id="contact">Contact</h1>
+<section class="contact">
+  <ul>
+    <li><a href="mailto:grant.davis.reed@gmail.com">Email</a></li>
+    <li><a href="https://linkedin.com/in/grant-reed-46b209133">LinkedIn</a></li>
+    <li><a href="https://github.com/grantdreed">Github</a></li>
+  </ul>
 </section>
                                          
 
