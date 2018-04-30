@@ -29,7 +29,7 @@
 <section class="contact">
   <ul>
     <li><a href="mailto:grant.davis.reed@gmail.com">Email</a></li>
-    <li><a href="https://linkedin.com/in/grant-reed-46b209133">LinkedIn</a></li>
+    <li><a href="https://linkedin.com/in/grant-d-reed">LinkedIn</a></li>
     <li><a href="https://github.com/grantdreed">Github</a></li>
   </ul>
 </section>
