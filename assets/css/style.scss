@@ -94,6 +94,9 @@ header {
       }
     }
   }
+  > section:last-child {
+    border-bottom: none;
+  }
   .project:after {
     content: "";
     display: table;
