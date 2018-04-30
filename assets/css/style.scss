@@ -5,6 +5,9 @@
 
 header {
   background-image: none;
+  h1 {
+    width: auto;
+  }
   font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
   a.button {
     font-family: "Whitney SSm A", "Whitney SSm B", "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
@@ -53,10 +56,13 @@ header {
   }
   .about {
     padding: 0 50px;
+  }
+  p {
     font-size: 2em;
   }
   .project {
     width: 100%;
+    border-bottom: 2px dashed #474747;
     aside {
       float: left;
       width: 30%;
@@ -72,7 +78,6 @@ header {
       width: 70%;
       p {
         padding-right: 50px;
-        font-size: 2em;
       }
     }
   }
@@ -98,3 +103,82 @@ header {
   }
 }
 
+@media (max-width: 959px) {
+  header {
+    h2 {
+      font-size: 1.5em;
+      margin-bottom: 20px;
+    }
+  }
+  #main-content {
+    h1 {
+      font-size: 2em;
+    }
+    aside h2 {
+      font-size: 1.7em;
+    }
+    p {
+      font-size: 1.5em;
+    }
+    .content-btn {
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  header {
+    a.button small {
+      padding-left: 0;
+    }
+    a.button + a.button {
+      top: 0;
+      margin-left: 10px;
+      padding: 20px 18px;
+    }
+  }
+  #main-content {
+    p {
+      font-size: 1em;
+    }
+    img {
+      display: none;
+    }
+    aside h2 {
+      font-size: 1.7em;
+    }
+    .project aside {
+      float: none;
+      width: 100%;
+    }
+    .project .desc {
+      float: none;
+      width: 100%;
+    }
+    .desc p {
+      padding: 0 50px;
+    }
+  }
+}
+
+@media (max-width: 434) {
+  header h1 {
+    font-size: 36px;
+  }
+  #main-content {
+    .about {
+      padding: 0;
+    }
+    .desc p {
+      padding: 0;
+    }
+  }
+}
+
+@media (max-width: 378) {
+  header {
+    a.button + a.button {
+      margin-left: 0;
+    }
+  }
+}
