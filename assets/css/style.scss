@@ -70,10 +70,18 @@ header {
       float: left;
       width: 30%;
       text-align: center;
+      a {
+        margin-bottom: 10px;
+      }
       h2 {
            margin: 0 0 10px 0;
            font-size: 2em;
            text-indent: 0;
+      }
+      #reaction {
+        background: #ffff1e;
+        border: 1px solid #474747;
+        border-radius: 20px;
       }
     }
     section {
