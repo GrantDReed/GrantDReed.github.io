@@ -212,8 +212,8 @@ nav {
       float: none;
       width: 100%;
     }
-    .desc p {
-      padding: 0 50px;
+    .project section p {
+      padding: 0;
     }
   }
 }
@@ -221,9 +221,6 @@ nav {
 @media (max-width: 434px) {
   header h1 {
     font-size: 36px;
-  }
-  #main-content .project section p {
-    padding: 0;
   }
 }
 
