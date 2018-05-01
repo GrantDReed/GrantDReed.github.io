@@ -222,13 +222,8 @@ nav {
   header h1 {
     font-size: 36px;
   }
-  #main-content {
-    .about {
-      padding: 0;
-    }
-    .desc p {
-      padding: 0;
-    }
+  #main-content .project section p {
+    padding: 0;
   }
 }
 
