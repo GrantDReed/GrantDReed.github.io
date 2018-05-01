@@ -45,18 +45,13 @@ nav {
         color: #fff;
         font-size: 2em;
         line-height: normal;
-        margin-left: 50px;
         display: inline-block;
         padding: 15px 0;
+        width: 100px;
       }
       a:hover {
         background: #2E7BCF;
         color: #fff;
-      }
-    }
-    li:first-child {
-      a {
-        margin-left: 0;
       }
     }
   }
