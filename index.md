@@ -8,8 +8,7 @@
   <aside>
     <h2>Ouroboros</h2>
     <a class='logo' href="https://ouroboros-game.herokuapp.com"><img src="assets/images/logo.svg" alt="ouroboros logo" width="150px"></a>
-    <a class="content-btn" href="https://ouroboros-game.herokuapp.com">Play the Game</a>
-    <a class="content-btn" href="https://github.com/ouroboros-team/ouroboros">View the Code</a>
+    <a class="content-btn" href="https://ouroboros-game.herokuapp.com/about">Read the Paper</a>
   </aside>
   <section class="desc">
     <p>Ouroboros is a reflex-based, peer-to-peer game that runs in the browser, modeled off of the game Snake.</p>
