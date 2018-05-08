@@ -37,7 +37,7 @@
     </section>
   </section>
 </section>
-<h1 class="skills">Skills</h1>
+<h1 id="skills">Skills</h1>
 <section class="skills">
   <h2>Languages</h2>
   <ul>
