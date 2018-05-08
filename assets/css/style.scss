@@ -145,6 +145,28 @@ nav {
   .projects > section:last-of-type {
     border-bottom: none;
   }
+  .skills {
+    table {
+      text-align: center;
+      border: none;
+      border-spacing: 30px 0;
+      td {
+        border: none;
+      }
+      thead td {
+        font-size: 1.5em;
+        width: 33%;
+        border-bottom: 1px solid;
+        vertical-align: bottom;
+      }
+      tbody td {
+        line-height: 2em;
+      }
+    }
+  }
+  #contact {
+    margin-top: 20px;
+  }
   .contact {
     ul {
       margin: 0;
