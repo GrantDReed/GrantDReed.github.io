@@ -18,7 +18,7 @@
         <li>Achieves fast collision checking and display rendering via an intermediary data structure with O(1) lookup</li>
         <li>Data buffers ensure accurate winner determination and smooth end-of-game transition for all peers</li>
         <li>Full-mesh network topology allows for lowest possible latency between peers</li>
-        <li>Establishs peer connections via WebRTC</li>
+        <li>Establishes peer connections via WebRTC</li>
       </ul>
   </section>
 </section>
