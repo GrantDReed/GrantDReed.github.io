@@ -64,14 +64,9 @@
         <td>System Design</td>
       </tr>
       <tr>
-        <td>SQL</td>
-        <td>Ruby On Rails</td>
-        <td>OOP</td>
-      </tr>
-      <tr>
         <td>HTML</td>
         <td>Sinatra</td>
-        <td></td>
+        <td>OOP</td>
       </tr>
       <tr>
         <td>CSS</td>
