@@ -39,27 +39,52 @@
 </section>
 <h1 id="skills">Skills</h1>
 <section class="skills">
-  <section class="skill-category">
-    <h2>Languages</h2>
-    <ul>
-      <li>Javascript</li>
-      <li>Ruby</li>
-      <li>SQL</li>
-      <li>HTML</li>
-      <li>CSS</li>
-    </ul>
-  </section>
-  <section class="skill-category">
-    <h2>Frameworks and Technologies</h2>
-    <ul>
-      <li>React</li>
-      <li>Redux</li>
-      <li>Ruby on Rails</li>
-      <li>Sinatra</li>
-      <li>Git</li>
-      <li>WebRTC</li>
-    </ul>
-  </section>
+  <table>
+    <thead>
+      <tr>
+        <td>Languages</td>
+        <td>Frameworks and Technologies</td>
+        <td>Computer Science</td>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>Javascript</td>
+        <td>React</td>
+        <td>Data Structures and Algorithms</td>
+      </tr>
+      <tr>
+        <td>Ruby</td>
+        <td>Redux</td>
+        <td>Decentralized Architectures</td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+        <td>Ruby on Rails</td>
+        <td>System Design</td>
+      </tr>
+      <tr>
+        <td>SQL</td>
+        <td>Ruby On Rails</td>
+        <td>OOP</td>
+      </tr>
+      <tr>
+        <td>HTML</td>
+        <td>Sinatra</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td>CSS</td>
+        <td>Git</td>
+        <td></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>WebRTC</td>
+        <td></td>
+      </tr>
+    </tbody>
+  </table>
 </section>
 <h1 id="contact">Contact</h1>
 <section class="contact">
