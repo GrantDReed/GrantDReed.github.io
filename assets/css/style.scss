@@ -33,6 +33,31 @@ header {
   }
 }
 
+nav {
+  background: #76bdfb;
+  ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    margin: 0;
+  > li {
+      display: inline-block;
+      a {
+        color: #fff;
+        font-size: 2em;
+        line-height: normal;
+        display: inline-block;
+        padding: 15px 0;
+        width: 150px;
+      }
+      a:hover {
+        background: #2E7BCF;
+        color: #fff;
+      }
+    }
+  }
+}
+
 #main-content {
   float: none;
   width: 100%;
@@ -58,26 +83,42 @@ header {
     padding: 0 50px;
   }
   p {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-bottom: 0;
   }
   .project {
     width: 100%;
     border-bottom: 2px dashed #474747;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
     aside {
       float: left;
       width: 30%;
       text-align: center;
+      .logo {
+        display: inline-block;
+        margin-bottom: 10px;
+      }
       h2 {
            margin: 0 0 10px 0;
            font-size: 2em;
            text-indent: 0;
       }
+      #reaction {
+        background: #ffff1e;
+        border: 1px solid #474747;
+        border-radius: 20px;
+      }
     }
     section {
+      margin-bottom: 0;
       float: left;
       width: 70%;
       p {
         padding-right: 50px;
+      }
+      ul {
+        font-size: 1.5em;
       }
     }
   }
@@ -100,6 +141,25 @@ header {
   }
   .content-btn:hover {
     box-shadow: 0 0 0 5px #2E7BCF;
+  }
+  > section:nth-last-of-type(2) {
+    border-bottom: none;
+  }
+  .contact {
+    ul {
+      margin: 0;
+      list-style-type: none;
+      padding: 0;
+      text-align: center;
+    }
+    li {
+      display: inline-block;
+      a {
+        display: inline-block;
+        font-size: 1.5em;
+        margin:0 50px;
+      }
+    }
   }
 }
 
@@ -138,6 +198,9 @@ header {
     }
   }
   #main-content {
+    section.about {
+      padding: 0;
+    }
     p {
       font-size: 1em;
     }
@@ -155,27 +218,19 @@ header {
       float: none;
       width: 100%;
     }
-    .desc p {
-      padding: 0 50px;
+    .project section p {
+      padding: 0;
     }
   }
 }
 
-@media (max-width: 434) {
+@media (max-width: 434px) {
   header h1 {
     font-size: 36px;
   }
-  #main-content {
-    .about {
-      padding: 0;
-    }
-    .desc p {
-      padding: 0;
-    }
-  }
 }
 
-@media (max-width: 378) {
+@media (max-width: 378px) {
   header {
     a.button + a.button {
       margin-left: 0;
