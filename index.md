@@ -4,38 +4,39 @@
 </section>
 
 <h1 id="projects">Projects</h1>
-<section class="project">
-  <aside>
-    <h2>Ouroboros</h2>
-    <a class='logo' href="https://ouroboros-game.herokuapp.com"><img src="assets/images/logo.svg" alt="ouroboros logo" width="150px"></a>
-    <a class="content-btn" href="https://ouroboros-game.herokuapp.com/about">Read the Paper</a>
-  </aside>
-  <section class="desc">
-    <p>Ouroboros is a reflex-based, peer-to-peer game that runs in the browser, modeled off of the game Snake.</p>
+<section class="projects">
+  <section class="project">
+    <aside>
+      <h2>Ouroboros</h2>
+      <a class='logo' href="https://ouroboros-game.herokuapp.com"><img src="assets/images/logo.svg" alt="ouroboros logo" width="150px"></a>
+      <a class="content-btn" href="https://ouroboros-game.herokuapp.com/about">Read the Paper</a>
+    </aside>
+    <section class="desc">
+      <p>Ouroboros is a reflex-based, peer-to-peer game that runs in the browser, modeled off of the game Snake.</p>
+        <ul>
+          <li>Utilizes a Conflict-free Replicated Data Type (CRDT) to ensure eventual consistency of game state across peers</li>
+          <li>Predictive algorithms improve user experience in absence of peer data</li>
+          <li>Achieves fast collision checking and display rendering via an intermediary data structure with O(1) lookup</li>
+          <li>Data buffers ensure accurate winner determination and smooth end-of-game transition for all peers</li>
+          <li>Full-mesh network topology allows for lowest possible latency between peers</li>
+          <li>Establishes peer connections via WebRTC</li>
+        </ul>
+    </section>
+  </section>
+  <section class="project">
+    <aside>
+      <h2>Reaction</h2>
+      <a class="content-btn" href="https://reaction-trello-clone.herokuapp.com/">See the demo</a>
+    </aside>
+    <section class="desc">
+      <p>Reaction is a clone of the project management software, Trello.</p>
       <ul>
-        <li>Utilizes a Conflict-free Replicated Data Type (CRDT) to ensure eventual consistency of game state across peers</li>
-        <li>Predictive algorithms improve user experience in absence of peer data</li>
-        <li>Achieves fast collision checking and display rendering via an intermediary data structure with O(1) lookup</li>
-        <li>Data buffers ensure accurate winner determination and smooth end-of-game transition for all peers</li>
-        <li>Full-mesh network topology allows for lowest possible latency between peers</li>
-        <li>Establishes peer connections via WebRTC</li>
-      </ul>
+          <li>Allows users to add, remove, search, label, and reorganize lists and cards.</li>
+          <li>Rails backend and React frontend</li>
+      </ul>  
+    </section>
   </section>
 </section>
-<section class="project">
-  <aside>
-    <h2>Reaction</h2>
-    <a class="content-btn" href="https://reaction-trello-clone.herokuapp.com/">See the demo</a>
-  </aside>
-  <section class="desc">
-    <p>Reaction is a clone of the project management software, Trello.</p>
-    <ul>
-        <li>Allows users to add, remove, search, label, and reorganize lists and cards.</li>
-        <li>Rails backend and React frontend</li>
-    </ul>  
-  </section>
-</section>
-
 <h1 class="skills">Skills</h1>
 <section class="skills">
   <h2>Languages</h2>
