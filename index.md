@@ -14,18 +14,19 @@
   <section class="desc">
     <p>Ouroboros is a reflex-based, peer-to-peer game that runs in the browser, modeled off of the game Snake.</p>
       <ul>
-        <li>Utilizes a conflict-free replicated data type (CRDT) to ensure consistency of game state among peers</li>
-        <li>Predicts peer movements in absence of data to improve gameplay</li>
-        <li>Establishes peer connections via WebRTC, a native browser technology for forming peer-to-peer connections</li>
+        <li>Utilizes a Conflict-free Replicated Data Type (CRDT) to ensure eventual consistency of game state across peers</li>
+        <li>Predictive algorithms improve user experience in absence of peer data</li>
+        <li>Achieves fast collision checking and display rendering via an intermediary data structure with O(1) lookup</li>
+        <li>Data buffers ensure accurate winner determination and smooth end-of-game transition for all peers</li>
+        <li>Full-mesh network topology allows for lowest possible latency between peers</li>
+        <li>Establishs peer connections via WebRTC</li>
       </ul>
   </section>
 </section>
 <section class="project">
   <aside>
     <h2>Reaction</h2>
-    <a class='logo' href="https://github.com/GrantDreed/reaction-trello-clone"><img id='reaction' src="assets/images/reaction.svg" alt="reaction logo" width="150px"></a>
     <a class="content-btn" href="https://reaction-trello-clone.herokuapp.com/">See the demo</a>
-    <a class="content-btn" href="https://github.com/GrantDReed/reaction-trello-clone">View the Code</a>
   </aside>
   <section class="desc">
     <p>Reaction is a clone of the project management software, Trello.</p>
@@ -34,6 +35,27 @@
         <li>Rails backend and React frontend</li>
     </ul>  
   </section>
+</section>
+
+<h1 class="skills">Skills</h1>
+<section class="skills">
+  <h2>Languages</h2>
+  <ul>
+    <li>Javascript</li>
+    <li>Ruby</li>
+    <li>SQL</li>
+    <li>HTML</li>
+    <li>CSS</li>
+  </ul>
+  <h2>Frameworks and Technologies</h2>
+  <ul>
+    <li>React</li>
+    <li>Redux</li>
+    <li>Ruby on Rails</li>
+    <li>Sinatra</li>
+    <li>Git</li>
+    <li>WebRTC</li>
+  </ul>
 </section>
 <h1 id="contact">Contact</h1>
 <section class="contact">
