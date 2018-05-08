@@ -33,29 +33,33 @@
       <ul>
           <li>Allows users to add, remove, search, label, and reorganize lists and cards.</li>
           <li>Rails backend and React frontend</li>
-      </ul>  
+      </ul>
     </section>
   </section>
 </section>
 <h1 id="skills">Skills</h1>
 <section class="skills">
-  <h2>Languages</h2>
-  <ul>
-    <li>Javascript</li>
-    <li>Ruby</li>
-    <li>SQL</li>
-    <li>HTML</li>
-    <li>CSS</li>
-  </ul>
-  <h2>Frameworks and Technologies</h2>
-  <ul>
-    <li>React</li>
-    <li>Redux</li>
-    <li>Ruby on Rails</li>
-    <li>Sinatra</li>
-    <li>Git</li>
-    <li>WebRTC</li>
-  </ul>
+  <section class="skill-category">
+    <h2>Languages</h2>
+    <ul>
+      <li>Javascript</li>
+      <li>Ruby</li>
+      <li>SQL</li>
+      <li>HTML</li>
+      <li>CSS</li>
+    </ul>
+  </section>
+  <section class="skill-category">
+    <h2>Frameworks and Technologies</h2>
+    <ul>
+      <li>React</li>
+      <li>Redux</li>
+      <li>Ruby on Rails</li>
+      <li>Sinatra</li>
+      <li>Git</li>
+      <li>WebRTC</li>
+    </ul>
+  </section>
 </section>
 <h1 id="contact">Contact</h1>
 <section class="contact">
@@ -65,6 +69,6 @@
     <li><a href="https://github.com/grantdreed">Github</a></li>
   </ul>
 </section>
-                                         
+
 
 
