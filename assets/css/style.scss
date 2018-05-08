@@ -145,6 +145,18 @@ nav {
   .projects > section:last-of-type {
     border-bottom: none;
   }
+  .skills {
+    ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+      text-align: center;
+      font-size: 1.5em;
+    }
+    .skill-category {
+      display: inline-block;
+    }
+  }
   .contact {
     ul {
       margin: 0;
