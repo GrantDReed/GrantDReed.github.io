@@ -23,19 +23,6 @@
         </ul>
     </section>
   </section>
-  <section class="project">
-    <aside>
-      <h2>Reaction</h2>
-      <a class="content-btn" href="https://reaction-trello-clone.herokuapp.com/">See the demo</a>
-    </aside>
-    <section class="desc">
-      <p>Reaction is a clone of the project management software, Trello.</p>
-      <ul>
-          <li>Allows users to add, remove, search, label, and reorganize lists and cards.</li>
-          <li>Rails backend and React frontend</li>
-      </ul>
-    </section>
-  </section>
 </section>
 <h1 id="skills">Skills</h1>
 <section class="skills">
